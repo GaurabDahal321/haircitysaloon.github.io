@@ -1,0 +1,251 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar Styles */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
+    line-height: 2;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  nav ul li {
+    margin-right:50px;
+    
+    
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  
+  nav ul li a:hover {
+    color: #fffdd0;
+  }
+  
+  /* Owner Section Styles */
+  #owner {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fffdd0;
+  }
+  
+  .owner-info {
+    flex-basis: 300px;
+    text-align: center;
+  }
+  
+  .owner-info img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  
+  .salon-description {
+    flex-basis: 600px;
+  }
+  
+  .salon-description h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .salon-description p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px;
+  }
+  
+  /* Services Section Styles */
+  #services {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #services li {
+    flex-basis: 250px;
+    margin-bottom: 50px;
+  }
+  
+  #services li img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #services li h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Gallery Section Styles */
+  #gallery {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fffdd0;
+  }
+  
+  #gallery h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f1c40f;
+  }
+  
+  .social-media {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .social-media a.fa-facebook {
+    background-color: #3B5998;
+  }
+  
+  .social-media a.fa-instagram {
+    background-color: #E1306C;
+  }
+  
+  
+  
+  /* Footer */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  /* .map {
+    flex-basis: 100%;
+    margin-bottom: 20px;}
+   */
+  

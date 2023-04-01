@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Hair Salon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Slick slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  </head>
+  <body>
+    <header>
+      
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="owner">
+        <div class="owner-info">
+          <img src="owner.jpg" alt="Owner Photo">
+          <h2>John Smith</h2>
+          <p>Owner and Master Stylist</p>
+        </div>
+        <div class="salon-description">
+          <h2>About Our Salon</h2>
+          <p>Welcome to My Hair Salon, where we offer a wide range of hair services to make you look and feel your best. Our salon is equipped with the latest equipment and our stylists stay current with the latest trends and techniques to provide you with the best service possible.</p>
+        </div>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>
+            <img src="haircut1.jpg" alt="Haircut">
+            <h3>Haircuts</h3>
+          </li>
+          <li>
+            <img src="haircolor1.jpg" alt="Hair Color">
+            <h3>Hair Coloring</h3>
+          </li>
+          <li>
+            <img src="hairstyle1.jpg" alt="Hair Style">
+            <h3>Hair Styling</h3>
+          </li>
+          <li>
+            <img src="hairextension1.jpg" alt="Hair Extensions">
+            <h3>Hair Extensions</h3>
+          </li>
+        </ul>
+      </section>
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="slider">
+          <div><img src="gallary1.jpg" alt="Gallery Image 1"></div>
+          <div><img src="gallary2.jpg" alt="Gallery Image 2"></div>
+          <div><img src="gallary3.jpg" alt="Gallery Image 3"></div>
+          <div><img src="gallary4.jpg" alt="Gallery Image 4"></div>
+          <div><img src="gallary5.jpg" alt="Gallery Image 5"></div>
+        </div>
+      </section>
+    
+<section id="contact">
+<h2>Contact Us</h2>
+<form>
+<label for="name">Name</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Message</label>
+<textarea id="message" name="message" required></textarea>
+<input type="submit" value="Submit">
+</form>
+
+<div class="social-media">
+    <ul>
+        
+
+      <!-- Add font awesome icons -->
+       <li><a href="https://www.facebook.com/hero.gaurav.5" class="fa fa-facebook"></a></li>
+       <li><a href="https://www.instagram.com/ma_chai_gaurey/" class="fa fa-instagram"></a></li>
+       
+       
+
+    </ul>
+</div>
+</section>
+</main>
+
+
+
+<footer>
+<div class="map">    
+<iframe width="380" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=jhamsikhel%20hair%20city%20salon&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+<div class="location-info">
+
+<div>
+<p><i class="fa fa-map-marker"></i> 123 Main Street, Anytown USA</p>
+<p><i class="fa fa-phone"></i> 555-555-5555</p>
+<p><i class="fa fa-envelope"></i>john@gmail.com</p>
+<p>© 2023 My Hair Salon. All Rights Reserved.</p>
+</div>
+
+</footer>
+<!-- Slick slider JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider').slick({
+            autoplay: true,
+            arrows: true,
+            dots: true
+        });
+    });
+</script>
+  </body>
+</html>
+
+
